@@ -1,3 +1,5 @@
+import Dice from './dice.js'
+
 export default class Game {
 
     constructor() {
@@ -6,13 +8,14 @@ export default class Game {
         this._dice = new Dice();
     }
 
-    pushPlayer() {
+    runGame() {
         while (this._playerA < 100 && this._playerB < 100) {
             
             this._playerA = this._playerA + this.getPosition(this._dice.pushDice());
             this._playerB = this._playerB + this.getPosition(this._dice.pushDice());
             console.log('Jugador A: ' + this._playerA);
             console.log('Jugador B: ' + this._playerB);
+            console.log(' ');
 
         }
         return [this._playerA, this._playerB]
