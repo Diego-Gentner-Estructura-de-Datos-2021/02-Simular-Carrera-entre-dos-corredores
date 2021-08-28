@@ -10,11 +10,14 @@
 
 
 
-## TITLE
+## Simular Carrera entre dos corredores
 
-**Instrucciones:** INSTRUCTIONS
-
-![imagen adjuntada por el profesor](https://raw.githubusercontent.com/Diego-Gentner-Estructura-de-Datos-2021/01-Coladera-de-Eratostenes/3d18a916f4586c3030fe3eae2982175ec36e9851/img/img-01.jpg)
+**Instrucciones:** Simular una carrera entre dos corredores con la probabilidad de avance descrita abajo en una pista de 100 cuadros
+ir marcando en cada avance la posición de los corredores, al final decir quien gano o si hubo empate.
+Probabilidades
+1/6    3 cuadros             
+2/6    1 cuadros              (1    2)   3  ( 4   5   6)
+3/6    2 cuadros
 
 
 
